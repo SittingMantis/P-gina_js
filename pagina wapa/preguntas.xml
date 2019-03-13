@@ -1,50 +1,94 @@
 <?xml version="1.0" encoding="UTF-8"?> 
-<preguntas>
-	<pregunta tipo="radio">	
-		<titulo>¿Cuál de las siguientes es una causa de cianosis central? Señale la respuesta correcta:</titulo>
-		<opcion>Menor gasto cardiaco sin fallo retrógrado.</opcion>
-		<opcion>Hipoventilación alveolar con bradipnea.</opcion>
-		<opcion>Exposición al frío con vasoconstricción en dermis.</opcion>
-		<opcion>Fenómeno de Raynaud secundario.</opcion>
-		<respuesta>1</respuesta> 		
-	</pregunta>
-	<pregunta tipo="checkbox">
-		<titulo>¿De qué segmentos medulares se originan las raíces nerviosas motoras del nervio femoral?</titulo>
-		<opcion>L1, L2 Y L3.</opcion>
-		<opcion>L2, L3 Y L4.</opcion>
-		<opcion>L3, L2 Y L4.</opcion>
-		<opcion>L4, S1 Y S2.</opcion>
-		<respuesta>1</respuesta>
-		<respuesta>2</respuesta>
-	</pregunta>
-	<pregunta tipo="select">
-		<titulo> ¿Cuál de estas ramas de la medicina estudia la lesiones del aparato locomotor?</titulo>
-		<opcion>Sin respuesta</opcion>
-		<opcion> Bioquímica clínica </opcion>
-		<opcion> Traumatología </opcion>
-		<opcion> Neonatología </opcion>
-		<opcion> Genética </opcion>
-		<opcion> Hebiatría </opcion>
-		<respuesta>2</respuesta>
-	</pregunta>
-	<pregunta tipo="label">
-		<titulo> El color más típico para representar la medicina es... </titulo>
-	</pregunta>
-	<pregunta tipo="textarea">
-		<titulo>El paciente Jorge presenta un estadio de cáncer de T4, N4, M3, ¿cuál será la descripción que más se caracterizara al estado del paciente?</titulo>
-	</pregunta>
-	<pregunta tipo="radio"> 
-		<titulo>¿Cuál de las siguientes opciones es una complicación posible ante una infección por virus de la hepatitis A?</titulo>
-		<opcion>Evolución a la cronicidad.</opcion>
-		<opcion>Evolución a la cirrosis.</opcion>
-		<opcion>Falla hepática fulminante.</opcion>
-		<opcion>Hepatocarcinoma.</opcion>
-	</pregunta>
-	<pregunta tipo="radio">
-	<titulo> El diagnostico de enfermedad de Chagas</titulo>
-	<opcion>Se realiza mediante la dupla serológica a saber HAI/IFI O HAI/ELISA.</opcion>
-
- 
-
-
-</preguntas>
+<questions>
+	<type>radio</type>
+	<question>	
+		<title>¿Cuál de las siguientes es una causa de cianosis central? Señale la answer correcta:</title>
+		<option>Menor gasto cardiaco sin fallo retrógrado.</option>
+		<option>Hipoventilación alveolar con bradipnea.</option>
+		<option>Exposición al frío con vasoconstricción en dermis.</option>
+		<option>Fenómeno de Raynaud secundario.</option>
+		<answer>1</answer> 		
+	</question>
+	<type>checkbox</type>
+	<question>
+		<title>¿De qué segmentos medulares se originan las raíces nerviosas motoras del nervio femoral?</title>
+		<option>L1, L2 Y L3.</option>
+		<option>L2, L3 Y L4.</option>
+		<option>L3, L2 Y L4.</option>
+		<option>L4, S1 Y S2.</option>
+		<answer>1</answer>
+		<answer>2</answer>
+	</question>
+	<type>select</type>
+	<question>
+		<title> ¿Cuál de estas ramas de la medicina estudia la lesiones del aparato locomotor?</title>
+		<option>Sin respuesta</option>
+		<option> Bioquímica clínica </option>
+		<option> Traumatología </option>
+		<option> Neonatología </option>
+		<option> Genética </option>
+		<option> Hebiatría </option>
+		<answer>2</answer>
+	</question>
+	<type> radio </type>
+	<question>
+		<title> El color más típico para representar la medicina es... </title>
+		<option> Azul </option>
+		<option> Blanco </option>
+		<option> Rojo </option>
+		<option> Verde </option>
+		<answer>0</answer>
+ 	</question>
+ 	<type> radio </type>
+	<question>
+		<title>El paciente Jorge presenta un estadio de cáncer de T4, N4, M3, ¿cuál será la descripción que más se caracterizara al estado del paciente? 
+		</title>
+		<option> Lesión avanzada extendida a órganos adyacentes,  con aumento progresivo del tamaño 
+		ganglionar, afectación de varios órganos con alteración funcional.</option>
+		<option>Nada existe.</option>
+		<option>Todo existe.</option>
+		<answer>0</answer>
+	</question>
+	<type> radio </type>
+	<question> 
+		<title>¿Cuál de las siguientes optiones es una complicación posible ante una infección por virus de la hepatitis A?</title>
+		<option>Evolución a la cronicidad.</option>
+		<option>Evolución a la cirrosis.</option>
+		<option>Falla hepática fulminante.</option>
+		<option>Hepatocarcinoma.</option>
+	</question>
+	<type> radio </type>
+	<question>
+		<title> El diagnostico de enfermedad de Chagas</title>
+		<option>Se realiza mediante la dupla serológica a saber HAI/IFI O HAI/ELISA.</option>
+		<option>Se realiza mediante la serología por el ELISA.</option>
+		<option>Se realiza por la presencia del signo de romania.</option>
+		<option>Se realiza por la presencia se manifestaciones cardiacas en pacientes infectadas.</option>
+		<answer>2</answer>
+	</question>
+	<type> radio </type>
+	<question>
+		<title>Si se confirma sífilis en una embarazada por las pruebas serológicas pero nunca se evidenció la clínica de la enfermedad y es de evolución desconocida ¿Cuántas dosis le indicaría de Penicilina? (0 a 3)</title>
+		<option>0</option>
+		<option>1</option>
+		<option>2</option>
+		<option>3</option>
+		<answer>3</answer>
+	</question>
+	<type> radio </type>
+	<question>
+		<title> ¿Cuál de las siguientes es una característica de la hiponatremia hipervolémica? Señale la answer correcta:</title>
+		<option>Deficiencia de ACTH.</option>
+		<option>Edema generalizado y ascitis.</option>
+		<option>Sodio urinario alto.</option>
+		<option> Ácido úrico bajo.</option>
+		<answer>1</answer>
+	</question>
+	<type> radio </type>
+	<question>
+		<title>¿Cuál de  las  siguientes  cefalosporinas  no  requiere ajuste  de  dosis  con  Filtrado  Glomerular  entre  25-10 ml/min?</title>
+		<option>Ceftazidima.</option>
+		<option>Cefepime.</option>
+		<option> Ceftriaxona.</option>
+		<option>Cefuroxima.</option>
+</questions>
