@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?> 
 <questions>
 	<question>
-		<type>radio</type>	
-		<title>¿Cuál de las siguientes es una causa de cianosis central? Señale la answer correcta:</title>
-		<option>Menor gasto cardiaco sin fallo retrógrado.</option>
-		<option>Hipoventilación alveolar con bradipnea.</option>
-		<option>Exposición al frío con vasoconstricción en dermis.</option>
-		<option>Fenómeno de Raynaud secundario.</option>
-		<answer>1</answer> 		
+		<type>text</type>
+		<title>El color más típico para representar la medicina es...</title>
+		<answer>Azul</answer>
+ 	</question>
+ 	<question>
+		<type>text</type>
+		<title>Si se confirma sífilis en una embarazada por las pruebas serológicas pero nunca se evidenció la clínica de la enfermedad y es de evolución desconocida ¿Cuántas dosis le indicaría de Penicilina? (0 a 3)</title>
+		<answer>3</answer>
 	</question>
 	<question>
-		<type>checkbox</type>
-		<title>¿De qué segmentos medulares se originan las raíces nerviosas motoras del nervio femoral?</title>
-		<option>L1, L2 Y L3.</option>
-		<option>L2, L3 Y L4.</option>
-		<option>L3, L2 Y L4.</option>
-		<option>L4, S1 Y S2.</option>
-		<answer>1</answer>
+		<type>select</type>
+		<title>¿Cuál de  las  siguientes  cefalosporinas  no  requiere ajuste  de  dosis  con  Filtrado  Glomerular  entre  25-10 ml/min?</title>
+		<option>Ceftazidima.</option>
+		<option>Cefepime.</option>
+		<option>Ceftriaxona.</option>
+		<option>Cefuroxima.</option>
 		<answer>2</answer>
 	</question>
 	<question>
@@ -31,49 +31,45 @@
 		<answer>2</answer>
 	</question>
 	<question>
-		<type>radio</type>
-		<title>El color más típico para representar la medicina es...</title>
-		<option>Azul</option>
-		<option>Blanco </option>
-		<option>Rojo</option>
-		<option>Verde</option>
-		<answer>0</answer>
- 	</question>
+		<type>multiple</type>
+		<title>¿De qué segmentos medulares se originan las raíces nerviosas motoras del nervio femoral?</title>
+		<option>L1, L2 Y L3.</option>
+		<option>L2, L3 Y L4.</option>
+		<option>L3, L2 Y L4.</option>
+		<option>L4, S1 Y S2.</option>
+		<answer>1</answer>
+		<answer>2</answer>
+	</question>
 	<question>
-		<type>radio</type>
+		<type>multiple</type>
 		<title>El paciente Jorge presenta un estadio de cáncer de T4, N4, M3, ¿cuál será la descripción que más se caracterizara al estado del paciente? 
 		</title>
 		<option> Lesión avanzada extendida a órganos adyacentes,  con aumento progresivo del tamaño 
 		ganglionar, afectación de varios órganos con alteración funcional.</option>
 		<option>Nada existe.</option>
 		<option>Todo existe.</option>
+		<option>Me parece que es la primera.</option>
 		<answer>0</answer>
+		<answer>3</answer>	
 	</question>
 	<question> 
-		<type>radio</type>
+		<type>checkbox</type>
 		<title>¿Cuál de las siguientes optiones es una complicación posible ante una infección por virus de la hepatitis A?</title>
 		<option>Evolución a la cronicidad.</option>
 		<option>Evolución a la cirrosis.</option>
 		<option>Falla hepática fulminante.</option>
 		<option>Hepatocarcinoma.</option>
 		<answer>2</answer>
+		<answer>3</answer>
 	</question>
 	<question>
-		<type>radio</type>
+		<type>checkbox</type>
 		<title>El diagnostico de enfermedad de Chagas</title>
 		<option>Se realiza mediante la dupla serológica a saber HAI/IFI O HAI/ELISA.</option>
 		<option>Se realiza mediante la serología por el ELISA.</option>
 		<option>Se realiza por la presencia del signo de romania.</option>
 		<option>Se realiza por la presencia se manifestaciones cardiacas en pacientes infectadas.</option>
 		<answer>2</answer>
-	</question>
-	<question>
-		<type>radio</type>
-		<title>Si se confirma sífilis en una embarazada por las pruebas serológicas pero nunca se evidenció la clínica de la enfermedad y es de evolución desconocida ¿Cuántas dosis le indicaría de Penicilina? (0 a 3)</title>
-		<option>0</option>
-		<option>1</option>
-		<option>2</option>
-		<option>3</option>
 		<answer>3</answer>
 	</question>
 	<question>
@@ -87,10 +83,8 @@
 	</question>
 	<question>
 		<type>radio</type>
-		<title>¿Cuál de  las  siguientes  cefalosporinas  no  requiere ajuste  de  dosis  con  Filtrado  Glomerular  entre  25-10 ml/min?</title>
-		<option>Ceftazidima.</option>
-		<option>Cefepime.</option>
-		<option>Ceftriaxona.</option>
-		<option>Cefuroxima.</option>
-		<answer>2</answer>
-</questions>
+		<title>¿Crees que se debería de vacunar a los niños?</title>
+		<option>Por supuesto.</option>
+		<option>No porque eso es malo.</option>
+		<answer>0</answer>
+	</question>
