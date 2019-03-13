@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<preguntas>
+	<pregunta tipo="radio">	
+		<titulo>¿Cuál de las siguientes es una causa de cianosis central? Señale la respuesta correcta:</titulo>
+		<opcion>Menor gasto cardiaco sin fallo retrógrado.</opcion>
+		<opcion>Hipoventilación alveolar con bradipnea.</opcion>
+		<opcion>Exposición al frío con vasoconstricción en dermis.</opcion>
+		<opcion>Fenómeno de Raynaud secundario.</opcion>
+		<respuesta>1</respuesta> 		
+	</pregunta>
+	<pregunta tipo="checkbox">
+		<titulo>¿De qué segmentos medulares se originan las raíces nerviosas motoras del nervio femoral?</titulo>
+		<opcion>L1, L2 Y L3.</opcion>
+		<opcion>L2, L3 Y L4.</opcion>
+		<opcion>L3, L2 Y L4.</opcion>
+		<opcion>L4, S1 Y S2.</opcion>
+		<respuesta>1</respuesta>
+		<respuesta>2</respuesta>
+	</pregunta>
+	<pregunta tipo="select">
+		<titulo> ¿Cuál de estas ramas de la medicina estudia la lesiones del aparato locomotor?</titulo>
+		<opcion>Sin respuesta</opcion>
+		<opcion> Bioquímica clínica </opcion>
+		<opcion> Traumatología </opcion>
+		<opcion> Neonatología </opcion>
+		<opcion> Genética </opcion>
+		<opcion> Hebiatría </opcion>
+		<respuesta>2</respuesta>
+	</pregunta>
+	<pregunta tipo="label">
+		<titulo> El color más típico para representar la medicina es... </titulo>
+	</pregunta>
+	<pregunta tipo="textarea">
+		<titulo>El paciente Jorge presenta un estadio de cáncer de T4, N4, M3, ¿cuál será la descripción que más se caracterizara al estado del paciente?</titulo>
+	</pregunta>
+	<pregunta tipo="radio"> 
+		<titulo>¿Cuál de las siguientes opciones es una complicación posible ante una infección por virus de la hepatitis A?</titulo>
+		<opcion>Evolución a la cronicidad.</opcion>
+		<opcion>Evolución a la cirrosis.</opcion>
+		<opcion>Falla hepática fulminante.</opcion>
+		<opcion>Hepatocarcinoma.</opcion>
+	</pregunta>
+	<pregunta tipo="radio">
+	<titulo> El diagnostico de enfermedad de Chagas</titulo>
+	<opcion>Se realiza mediante la dupla serológica a saber HAI/IFI O HAI/ELISA.</opcion>
+
+ 
+
+
+</preguntas>

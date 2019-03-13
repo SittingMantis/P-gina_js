@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> Cuestionario </title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/cuestionario.css">
+    <script src="js.js"></script>
+</head>
+<body>
+        <img src="logo/logo.png" alt="logo">
+            <div id="advertencia">
+            <p> Al seleccionar una respuesta, no se puede deseleccionar.</p>
+            <p> Cada pregunta vale 1 punto, se restará 0,5 las no respondidas y las respondidas de manera incorrecta 1 punto. </p>
+            <p> Las preguntas monorespuestas son círculos.
+            <p> Las preguntas multirespuesta son cuadradas, hay dos válidas como mínimo. </p>
+            <p> Presionando "FINALIZAR EXAMEN", no hay vuelta atrás. </p>
+            <p> Presionando "RESTABLECER", se borrarán todas las preguntas hechas anteriormente. </p>
+        </div>
+<p id="titulo">Cuestionario</p>
+    <div id="form">
+        <h3> <b>1)</b> ¿Cuál de las siguientes es una causa de cianosis central? Señale la respuesta correcta:</h3> 
+        <ol>
+            <li><input type="radio" name="1" value="cardiaco"> Menor gasto cardiaco sin fallo retrógrado.</li>
+            <li><input type="radio" name="1" value="alveolar"> Hipoventilación alveolar con bradipnea.</li>
+            <li><input type="radio" name="1" value="vasoconstriccion"> Exposición al frío con vasoconstricción en dermis.</li>
+            <li><input type="radio" name="1" value="Raynaud"> Fenómeno de Raynaud secundario.</li>
+        </ol>
+        <h3><b>2)</b> ¿De qué segmentos medulares se originan las raíces nerviosas motoras del nervio femoral?</h3>
+        <ol>	
+            <li><input type="checkbox" name="L1" value="L1"> L1, L2 Y L3.</li>
+            <li><input type="checkbox" name="L2" value="L2"> L2, L3 Y L4.</li>
+            <li><input type="checkbox" name="L3" value="L3"> L3, L2 Y L4.</li>
+            <li><input type="checkbox" name="L4" value="L4"> L4, S1 Y S2.</li>
+        </ol>
+        <h3> <b>3)</b> ¿Cuál de estas ramas de la medicina estudia la lesiones del aparato locomotor?</h3>
+        <select name="menudesplegable">
+            <option> Sin respuesta</option>
+            <option> Bioquímica clínica </option>
+            <option> Traumatología </option>
+            <option> Neonatología</option>
+            <option> Genética</option>
+            <option> Hebiatría </option>
+        </select><br><br>
+        <h3> <b>4)</b> El color más típico para representar la medicina es... </h3>
+        <ol> 
+            <li><input type="radio" name="Color" value="Azul">Azul</li>
+            <li><input type="radio" name="Color" value="Blanco">Blanco</li>
+            <li><input type="radio" name="Color" value="Rojo">Rojo</li>
+            <li><input type="radio" name="Color" value="Verde">Verde</li>
+        </ol>
+        <h3> <b>5)</b> El paciente Jorge presenta un estadio de cáncer de T4, N4, M3, ¿cuál será la descripción que más se caracterizara al estado del paciente </h3>
+        <ol>   
+            <li><input type="radio" name="respuestas" value="T4"> Lesión avanzada extendida a órganos adyacentes,  con aumento progresivo del tamaño 
+ganglionar, afectación de varios órganos con alteración funcional.</li>
+            <li><input type="radio" name="respuestas" value="N4"> Nada existe.</li>
+            <li><input type="radio" name="respuestas" value="S4"> Todo existe.</li>
+        </ol>
+        <h3> <b>6)</b> ¿Cuál de las siguientes opciones es una complicación posible ante una infección por virus de la hepatitis A? </h3>
+        <ol>
+            <li><input type="radio" name="6" value="cronicidad"> Evolución a la cronicidad.</li>
+            <li><input type="radio" name="6" value="cirrosis"> Evolución a la cirrosis.</li>
+            <li><input type="radio" name="6" value="fulminante"> Falla hepática fulminante.</li>
+            <li><input type="radio" name="6" value="Hepatocarcinoma"> Hepatocarcinoma.</li>
+        </ol>
+        <h3> <b>7)</b> El diagnostico de enfermedad de Chagas</h3>
+        <ol>
+            <li><input type="radio" name="7" value="HAI"> Se realiza mediante la dupla serológica a saber HAI/IFI O HAI/ELISA.</li>
+            <li><input type="radio" name="7" value="ELISA"> Se realiza mediante la serología por el ELISA.</li>
+            <li><input type="radio" name="7" value="romania"> Se realiza por la presencia del signo de romania.</li>
+            <li><input type="radio" name="7" value="cardiacas"> Se realiza por la presencia se manifestaciones cardiacas en pacientes infectadas.</li>
+        </ol>
+        <h3> <b>8)</b> Si se confirma sífilis en una embarazada por las pruebas serológicas pero nunca se evidenció la clínica de la enfermedad y es de evolución desconocida ¿Cuántas dosis le indicaría de Penicilina? (0 a 3)</h3>
+        <ol>
+            <li><input type="radio" name="8" value="1">0</li>
+            <li><input type="radio" name="8" value="2">1</li>
+            <li><input type="radio" name="8" value="3">2</li>
+            <li><input type="radio" name="8" value="4">3</li>
+        </ol>
+        <h3> <b>9)</b> ¿Cuál de las siguientes es una característica de la hiponatremia hipervolémica? Señale la respuesta correcta:</h3>
+        <ol>
+            <li><input type="radio" name="9" value="ACTH"> Deficiencia de ACTH.</li>
+            <li><input type="radio" name="9" value="ascitis"> Edema generalizado y ascitis.</li>
+            <li><input type="radio" name="9" value="sodio"> Sodio urinario alto.</li>
+            <li><input type="radio" name="9" value="acido"> Ácido úrico bajo.</li>
+        </ol>
+        <h3> <b>10)</b> ¿Cuál de  las  siguientes  cefalosporinas  no  requiere ajuste  de  dosis  con  Filtrado  Glomerular  entre  25-10 ml/min?</h3>
+        <ol>
+            <li><input type="radio" name="10" value="Ceftazidima"> Ceftazidima.</li>
+            <li><input type="radio" name="10" value="Cefepime"> Cefepime.</li>
+            <li><input type="radio" name="10" value="Ceftriaxona"> Ceftriaxona.</li>
+            <li><input type="radio" name="10" value="Cefuroxima"> Cefuroxima.</li>
+        </ol>
+        <input type="submit" name="finalizar" value="FINALIZAR EXAMEN">
+        <input type="reset" name="restablecer" value="RESTABLECER">
+</div>
+</form>
+</body>
+</html>

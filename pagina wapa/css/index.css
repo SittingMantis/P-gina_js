@@ -1,0 +1,65 @@
+body {
+	text-align: center;
+	font-family: Yu Gothic;
+	background-image: url(https://static.iris.net.co/semana/upload/images/2018/5/18/567596_1.jpg);
+	 background-repeat: no-repeat;
+  background-size: cover;
+}
+form {
+  position: relative;
+  top:150px;
+  border: 1px solid;
+  padding: 20px;
+  box-shadow: 5px 10px;
+  background-color: white;
+  border-radius: 5px;
+  text-align: left;
+  margin-right: 40%;
+  margin-left: 40%;
+  text-align: center;
+  font-family: Yu Gothic;
+}
+p {
+	margin: 2%;
+}
+input[type=text] {
+    padding:5px; 
+    border-color:black;
+    border-radius: 5px;
+    font-family: Yu Gothic;
+}
+input[type=date] {
+    padding:5px; 
+    border-color:black;
+    border-radius: 5px;
+    font-family: Yu Gothic;
+}
+input[type=tel] {
+    padding:5px; 
+    border-color:black;
+    border-radius: 5px;
+    font-family: Yu Gothic;
+}
+input[type=email] {
+    padding:5px; 
+    border-color:black;
+    border-radius: 5px;
+    font-family: Yu Gothic;
+}
+input[type=submit] {
+	padding:5px; 
+  border-color:black;
+  border-radius: 5px;
+  font-family: Yu Gothic;
+  font-size: 16px;
+  margin-bottom: 3%;
+}
+#titulo {
+	margin-top: 5%;
+  position: relative;
+  text-align: center;
+  font-family: Yu Gothic;
+  font-size: 40px;
+  margin-bottom: 20px;
+  top: 10px;
+}

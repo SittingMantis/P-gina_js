@@ -1,0 +1,104 @@
+body {
+	font-family: Yu Gothic;
+	background-image: url(https://commalaga.com/wp-content/uploads/2018/04/258404-P55UTF-270.jpg);
+    background-repeat: no-repeat;
+  background-size: cover;
+}
+img {
+  position: absolute;
+  top: 10px;
+  left: 46%;
+}
+#advertencia {
+  position: relative;
+  border: 1px solid black;
+  border-radius: 5px;
+  text-align: center;
+  top: 150px;
+  margin-right: 38%;
+  margin-left: 38%;
+  background-color: orange;
+  padding: 10px;
+  text-align: justify;
+}
+#titulo {
+  position: relative;
+  text-align: center;
+  margin-top: 8%;
+  font-family: Yu Gothic;
+  font-size: 50px;
+  margin-bottom: 20px;
+  right: 10%;
+}
+form {
+  font-family: Yu Gothic;
+  border: 1px solid;
+  box-shadow: 5px 10px;
+  background-color: white;
+  text-align: left;
+  margin-right: 34%;
+  margin-left: 34%;
+  margin-bottom: 1%;
+  width: 32%;
+  height: 2000px;
+
+}
+#form {
+  margin: 4%;
+
+}
+input[type=submit] {
+  font-family: Yu Gothic;
+  position: relative;
+  left: 120px;
+  top: 20px;
+  padding:20px; 
+  border-radius: 4px;
+  font-size: 18px;
+  margin: 2%;
+}
+input[type=reset] {
+  font-family: Yu Gothic;
+  position: relative;
+  left: 120px;
+  top:20px;
+  padding:20px; 
+  border-radius: 4px;
+  font-size: 18px;
+  margin: 2%;
+
+}
+input[type=number] {
+  position: relative;
+  top:50px;
+  right: 1%;
+  margin-bottom: 10%;
+  font-family: Yu Gothic;
+  border-radius: 4px;
+
+}
+input[type=color] {
+  position: relative;
+  top: 70px;
+  width: 80px;
+  height: 50px;
+  background-color: white;
+  margin-bottom: 10%;
+  right: 50%;
+
+}
+select  {
+  position: relative;
+  top: 20px;
+  left: 3%;
+  font-family: Yu Gothic;
+  padding: 1%;
+  border-radius: 4px;
+
+}
+textarea {
+  width: 40%;
+  height: 100px;
+  font-family: Yu Gothic;
+  border-radius: 4px;
+}
